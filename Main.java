@@ -1,3 +1,9 @@
+/*The errors with the test data is the number of letter in the String CALENDAR is 8 according to the given data the
+value Should be 3 but its given that 1. 
+
+The ambiguity int the given requirement specifications is the including of the special characters "",." should be 
+included in the string*/
+
 import java.util.*;
 
 public class Main
@@ -71,6 +77,8 @@ for(String i:l2){
        b=b+4;
    }
 }
+System.out.println("maximum possible score is:"+a);
+System.out.println("points scored is:"+b);
 double result=((b*100.0)/a);
 double roundOff = Math.round(result * 100.0) / 100.0;
 System.out.println(roundOff);
